@@ -1,11 +1,14 @@
-import React from 'react';
-import Header from './components/Header';
+import React, { Component } from "react";
+import Routes from "./routes"
+
+import Header from "./components/Header";
 
 import './styles.css';
 
 const App = () => (
   <div className="App">
     <Header />
+    <Routes />
   </div>
 );
 
